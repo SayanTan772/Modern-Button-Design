@@ -8,7 +8,6 @@ body{
     width:100vw;
     height:100vh;
     background:url(./media/banner.jpg);
-    background-color:linear-gradient(180deg, rgba(0,0,0,0.01), rgba(0,0,0,0.55));
     background-size:cover;
     background-position:center;
 }
@@ -32,6 +31,15 @@ body{
     font-size:100px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
+}
+.hidden{
+    transform:translateX(-100%);
+    opacity:0;
+    transition: all 1.5s;
+}
+.show{
+    transform:translateX(0);
+    opacity:1;
 }
 .bg-overlay button{
     position:relative;
