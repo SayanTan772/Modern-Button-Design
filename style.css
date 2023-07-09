@@ -88,3 +88,27 @@ body{
 .bg-overlay button:hover .text-overlay{
     color:#000;
 }
+@media screen and (max-width:426px){
+    body{
+        background-repeat:no-repeat;
+        background-position:top;
+        overflow:hidden;
+    }
+    .bg-overlay h1{
+        font-size:45px;
+        line-height:70px;
+    }
+    .bg-overlay h1 span{
+        font-size:50px;
+        -webkit-text-stroke-width: 0.8px;
+    }
+    .bg-overlay button{
+        width:150px;
+        height:50px;
+        margin-top:40px;
+    }
+    .bg-overlay button .text-overlay{
+        width:150px;
+        height:50px;
+    }
+}
