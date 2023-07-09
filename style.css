@@ -8,6 +8,7 @@ body{
     width:100vw;
     height:100vh;
     background:url(./media/banner.jpg);
+    background-color:linear-gradient(180deg, rgba(0,0,0,0.01), rgba(0,0,0,0.55));
     background-size:cover;
     background-position:center;
 }
